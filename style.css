@@ -4,7 +4,7 @@ body {
     background-color: #ffe6e6;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Prevents page shifting */
+    overflow-x: hidden;
     overflow-y: auto;
 }
 
