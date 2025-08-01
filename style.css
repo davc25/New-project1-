@@ -53,14 +53,7 @@ button {
     display: none;
 }
 
-#letter {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 50%;
-    margin: auto;
-    box-shadow: 0px 0px 10px gray;
-    display: none;
+
 }
 
 .fade-in {
