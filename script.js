@@ -50,7 +50,6 @@ function respondYes() {
     document.body.style.backgroundSize = "70% auto";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition = "center center";
-    document.body.style.backgroundAttachment = "fixed";
 
     // Hide Yes and No buttons
     document.getElementById('yes-button').style.display = "none";
