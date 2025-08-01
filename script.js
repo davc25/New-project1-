@@ -43,30 +43,26 @@ function shrinkNoExpandYes() {
 }
 
 function respondYes() {
-    // Update message
-    const message = document.getElementById('message');
-    message.innerText = "Yay! Gi accept na niya nga gwapa siyaaa!!! ❤️🥰";
-    message.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
-    message.style.padding = "10px";
-    message.style.borderRadius = "10px";
-    message.style.fontWeight = "bold";
-    message.style.display = "inline-block";
+    document.getElementById('message').innerText = "Yay! Gi accept na niya nga gwapa siyaaa!!! ❤️🥰";
 
-    // Hide buttons
-    document.getElementById('yes-button').style.display = "none";
-    document.getElementById('no-button').style.display = "none";
-
-    // Change background to image
-    document.body.style.backgroundImage = "url('https://raw.githubusercontent.com/davc25/New-project1-/main/49be40cb-6f82-463f-8bc0-309f244d4212.jpg')";
+    // Change background to GIF
+    document.body.style.background = "url('https://raw.githubusercontent.com/davc25/New-project1-/main/49be40cb-6f82-463f-8bc0-309f244d4212.jpg')";
+    document.body.style.backgroundSize = "70% auto";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition = "center center";
     document.body.style.backgroundColor = "#fcd9ea";
 
-    if (window.innerWidth > 768) {
-        document.body.style.backgroundSize = "70% auto"; // Desktop
-    } else {
-        document.body.style.backgroundSize = "contain"; // Mobile
-    }
+    // Hide Yes and No buttons
+    document.getElementById('yes-button').style.display = "none";
+    document.getElementById('no-button').style.display = "none";
+
+    // Highlight the message
+let message = document.getElementById('message');
+message.style.backgroundColor = "rgba(255, 255, 255, 0.8)"; // Light white background
+message.style.padding = "10px";
+message.style.borderRadius = "10px";
+message.style.fontWeight = "bold";
+message.style.display = "inline-block"; // Keeps the background tight around the text
 
     // Play music
     let music = document.getElementById('loveSong');
