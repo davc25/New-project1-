@@ -87,7 +87,7 @@ function showLetter() {
     setTimeout(() => {
         letter.classList.add('fade-in');
     }, 300);
-    let letterText =`Dear Myrian, 💕  
+    let letterText =Dear Myrian, 💕  
 
 Happy National Girlfriend's Day, baby!  
 Even layo kaayo ta, ganahan ko makahibaw ka nga every single day, gina thank nako si God nga nagkaila ta.  
@@ -100,7 +100,7 @@ Alow me to love you from afar lang sa 😊❤️
 See you soon, beautiful. I can’t wait.  
 
 Love you always and forever,
-Dave`; 
+Dave; 
      
     
     
