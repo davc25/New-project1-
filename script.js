@@ -90,7 +90,15 @@ function showLetter() {
     let letterText = `Dear Myrian, 💕  
 
 Happy National Girlfriend's Day, baby!  
-Even layo kaayo ta, ganahan ko makahibaw ka nga every single day, gina thank nako si God nga nagkaila ta. Bisag naa kas Davao, akoang heart kay para nimo rajud ni. Usahay maguol ko kay dili tika ma-hug or makit-an personally, pero akoang gugma para nimo strong kaayo, walay kulang. I know one day kataw-an rani nato tanan ang atoang kaagi ron, pero for now, I just want you to know that I'm so proud of you jud, inlove kaayo nimo, og naa rako diri permi love para nimo. Padayon lang ta baby ah? Makaya rani natoooo, kaya!! Puhon mag-kuyog nata permi pero for now, Allow me to love you from afar lang sa 😊❤️  
+Even layo kaayo ta, ganahan ko makahibaw ka nga every single day, gina thank nako si God nga nagkaila ta.  
+Bisag naa kas Davao, akoang heart kay para nimo rajud ni.  
+Usahay maguol ko kay dili tika ma-hug or makit-an personally, pero akoang gugma para nimo strong kaayo, walay kulang.  
+I know one day kataw-an rani nato tanan ang atoang kaagi ron, pero for now, I just want you to know that  
+I'm so proud of you jud, inlove kaayo nimo, og naa rako diri permi love para nimo.  
+Padayon lang ta baby ah? Makaya rani natoooo, kaya!!  
+Puhon mag-kuyog nata permi pero for now,  
+Allow me to love you from afar lang sa 😊❤️  
+
 
 See you soon, beautiful. I can’t wait.  
 
