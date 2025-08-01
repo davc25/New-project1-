@@ -27,8 +27,8 @@ function shrinkNoExpandYes() {
         "Last nani no jud??",
         "Di pwede mo no HAHAHAHAHA 😔"
     ];
-    if (noCount < sadMessages.length) {
-        message.innerText = sadMessages[noCount];
+    if (noCount < sads.length) {
+        .innerText = sadMessages[noCount];
     }
 
     // Make "No" button disappear when too small
