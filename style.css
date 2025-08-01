@@ -109,9 +109,9 @@ button {
 
 #letter {
     display: none;
-    max-width: 90vw;
-    max-height: 80vh;  /* This limits height, so the white box doesn't overflow screen */
-    overflow-y: auto;  /* Scrolls vertically if content is long */
+    width: 90vw;
+    max-height: 70vh;          /* Limit height so it fits on screen */
+    overflow-y: auto;          /* Enable scroll inside box */
     overflow-x: hidden;
     margin: 20px auto;
     padding: 20px;
@@ -119,11 +119,11 @@ button {
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     font-family: 'Arial', sans-serif;
-    white-space: pre-wrap;
     line-height: 1.6;
     text-align: left;
     position: relative;
     z-index: 10;
+    white-space: normal;
 }
 
 @media (min-width: 768px) {
@@ -133,7 +133,10 @@ button {
 }
 
 #letter-text {
-    max-width: 100%;
-    word-wrap: break-word;
-    white-space: pre-wrap;
+    white-space: pre-wrap;      /* Keeps your formatting */
+    word-wrap: break-word;      /* Breaks long words if needed */
+}
+
+#letter {
+    -webkit-overflow-scrolling: touch;
 }
