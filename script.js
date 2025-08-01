@@ -46,11 +46,9 @@ function respondYes() {
     document.getElementById('message').innerText = "Yay! Gi accept na niya nga gwapa siyaaa!!! ❤️🥰";
 
     // Change background to GIF
-    document.body.style.background = "url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2FxaDFvZmNsZWszYmJ3anczZXUxejdvNnlsZXJsM3hrNTYzYm1rayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H5PUsFQn7YEAlXgL5w/giphy.gif')";
-    document.body.style.backgroundSize = "70% auto";
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundPosition = "center center";
-
+    <div class="gif-container">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2FxaDFvZmNsZWszYmJ3anczZXUxejdvNnlsZXJsM3hrNTYzYm1rayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H5PUsFQn7YEAlXgL5w/giphy.gif" class="background-gif">
+    </div>
     // Hide Yes and No buttons
     document.getElementById('yes-button').style.display = "none";
     document.getElementById('no-button').style.display = "none";
