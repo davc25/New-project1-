@@ -113,3 +113,28 @@ button {
 .right-gif {
     right: 10px;
 }
+
+#letter {
+    display: none;
+    max-width: 90vw;
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Arial', sans-serif;
+    white-space: pre-wrap;
+    line-height: 1.6;
+    text-align: left;
+    position: relative;
+    z-index: 10;
+}
+
+@media (min-width: 768px) {
+    #letter {
+        max-width: 600px;
+    }
+}
