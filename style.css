@@ -167,31 +167,3 @@ button {
 }
 
 
-#letter {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 12px;
-    font-size: 1.1rem;
-    color: #333;
-    max-width: 700px;
-    margin: 20px auto;
-    text-align: left;
-    line-height: 1.5;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    white-space: pre-line;
-    z-index: 2;
-    position: relative;
-    display: none;
-}
-
-/* Responsive for mobile */
-@media screen and (max-width: 768px) {
-    #letter {
-        width: 90%;
-        font-size: 1rem;
-        padding: 15px;
-        margin: 10px auto;
-        word-wrap: break-word;
-        text-align: center; /* Optional: center the text on small screens */
-    }
-}
