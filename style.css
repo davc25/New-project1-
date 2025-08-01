@@ -54,7 +54,6 @@ button {
 }
 
 
-}
 
 .fade-in {
     animation: fadeIn 1.5s ease-in-out forwards;
@@ -111,8 +110,8 @@ button {
 #letter {
     display: none;
     max-width: 90vw;
-    max-height: 80vh;
-    overflow-y: auto;
+    max-height: 80vh;  /* This limits height, so the white box doesn't overflow screen */
+    overflow-y: auto;  /* Scrolls vertically if content is long */
     overflow-x: hidden;
     margin: 20px auto;
     padding: 20px;
@@ -131,4 +130,10 @@ button {
     #letter {
         max-width: 600px;
     }
+}
+
+#letter-text {
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
 }
